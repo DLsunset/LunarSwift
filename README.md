@@ -27,12 +27,7 @@ print(date.caiShen)    // 财神方位
 
 说明：若同一页面要读取很多字段，优先使用 `lunarFeatures()` 一次获取，避免重复计算。
 
-## API 收敛说明
-
-- `Lunar` 包现在仅保留 `Date` 扩展相关 API 对外可见。
-- 其余旧 API 已收敛为模块内部实现细节，不再作为外部可调用能力。
-
-## 已保留/移植能力
+## API 
 
 - 星座
 - 干支
@@ -53,4 +48,4 @@ print(date.caiShen)    // 财神方位
 - 二十八星宿
 - 值神
 
-其余能力暂不作为迁移目标，也不作为 `Date` 扩展 API 的稳定承诺。
+数据来自于https://github.com/6tail/lunar-javascript
