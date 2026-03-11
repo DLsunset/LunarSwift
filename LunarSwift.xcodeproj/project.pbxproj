@@ -136,7 +136,7 @@
 /* Begin XCLocalSwiftPackageReference section */
 		A1B2C3D62F5FD4D700DB83A3 /* XCLocalSwiftPackageReference "Lunar" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = Lunar;
+			relativePath = .;
 		};
 /* End XCLocalSwiftPackageReference section */
 

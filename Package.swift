@@ -13,7 +13,7 @@ let package = Package(
         .library(name: "LunarSwift", targets: ["LunarSwift"])
     ],
     targets: [
-        .target(name: "LunarSwift", path: "Lunar/Sources/Lunar"),
-        .testTarget(name: "LunarSwiftTests", dependencies: ["LunarSwift"], path: "Lunar/Tests/LunarTests")
+        .target(name: "LunarSwift"),
+        .testTarget(name: "LunarSwiftTests", dependencies: ["LunarSwift"])
     ]
 )
